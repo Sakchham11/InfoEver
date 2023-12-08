@@ -1,0 +1,58 @@
+
+.main-container{  
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+};
+.big_name{
+    font-size: 5rem ;
+}
+.auth-card{
+    display: flex;
+    justify-content: center;
+}
+.auth-logo{
+    height: 10rem;
+    width: 13rem;
+}
+.bg-dark{
+    background-color:black;
+
+}
+.border-shadow{
+    box-shadow: 0px 0px 18px 0px rgba(449, 204, 54,0.9);
+    border: solid rgb(255,204,0);
+    
+}
+.nav-links {
+   padding: 1rem 1rem 1rem 1rem; 
+   margin:1rem 3rem 1rem -2rem;
+}
+
+.material-symbols-outlined{
+    font-size : 2rem;
+    border: solid darkred;
+    border-radius: 4rem;
+    padding: 0.5rem;
+    background: darkred;
+    color: white !important;
+}
+.material-symbols-outlined:hover{
+    box-shadow: 0px 0px 18px 0px rgba(449, 204, 54,0.9);
+}
+@media only screen and (max-width: 773px) {
+    .main-container{
+      display: block;
+    };
+    .material-symbols-outlined{
+        margin: 1rem;
+    };
+    .nav-links {
+        margin: auto;
+        padding: auto;
+     }
+  }
+
+//   ------------------------------------------
